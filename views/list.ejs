@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="box" id="heading">
+        <h1>It's <%= day %></h1>
+    </div>
+    
+    <div class="box">
+        <% for (let i = 0; i <additem.length; i++) { %>
+        
+        <div class="item">
+            <input type="checkbox">
+            <p><%= additem[i] %></p>
+        </div>
+
+        <% } %>
+
+        <form action="/" method="post" class="item">
+            <input type="text" name="newitem" placeholder="New item" autocomplete="off">
+            <button type="submit" name="button">+</button>
+        </form>
+    </div>
+    
+</body>
+
+<footer>
+    <p>copyright 2023 krishcodz</p>
+</footer>
+</html>
