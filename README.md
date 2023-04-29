@@ -4,11 +4,12 @@ This is an todo list web application that runs on node js. This project helped m
 
 # How to run
 
-clone the repository
+1.clone the repository
 
-open terminal and cd into the cloned directory
+2.open terminal and cd into the cloned directory
 
-run :
-$ node app.js
-
-then open : http://localhost:3000/
+3.run :
+```
+node app.js
+```
+4.then open : http://localhost:3000/
